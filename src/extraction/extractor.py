@@ -5,7 +5,7 @@ from src.extraction.models import Job
 
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-model = genai.GenerativeModel("gemini-2.0-flash")
+model = genai.GenerativeModel("gemini-3.8-flash")
 prompt = "Extract structured job posting data from the raw text. If a field is not explicitly mentioned in the text, return null(for lists, return an empty list). Do not guess or invent values."
 
 def extract_job(raw_text: str) -> Job:
