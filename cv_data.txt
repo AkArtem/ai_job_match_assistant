@@ -1,0 +1,15 @@
+title
+company
+location
+remote
+experience
+employment_type
+required_skills
+additional_skils
+min_hours_per_week
+max_hours_per_week
+min_german
+min_english
+education
+experience
+expacted_salary
