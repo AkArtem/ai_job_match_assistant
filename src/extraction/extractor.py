@@ -1,3 +1,4 @@
+import json
 import os
 import google.genai as genai
 from dotenv import load_dotenv
@@ -13,3 +14,9 @@ def extract_job(raw_text: str) -> Job:
     job_data = response.parsed
     job_data.raw_text = raw_text
     return job_data
+json_path = os.path.join(os.getcwd(), "data", "raw", "jobs.json")
+with open(json_path, "r", encoding="utf-8") as f:
+    jobs = json.load(f)
+for job in jobs:
+    extracted = extract_job(job["raw_text"])
+    print(extracted.model_dump_json(indent=2))
