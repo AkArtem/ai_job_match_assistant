@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-
+from typing import Literal
 class Job(BaseModel):
     id: str | None = None
     source: str | None = None
@@ -8,7 +8,7 @@ class Job(BaseModel):
     title: str | None = None
     company: str | None = None
     location: str | None = None
-    remote: bool | None = None
+    work_model: Literal["onsite", "hybrid", "remote"] | None = None
     required_experience: str | None = None
     employment_type: str | None = None
     required_skills: list[str] = Field(default_factory=list)
