@@ -7,7 +7,7 @@
     "title": "Working Student in Data Science (m/w/x)",
     "company": "Siemens Aktiengesellschaft Österreich",
     "location": "Wien",
-    "remote": true,
+    "work_model": "hybrid",
     "required_experience": null,
     "employment_type": "Werkstudent",
     "required_skills": [
@@ -17,22 +17,19 @@
       "anomaly detection",
       "forecasting",
       "Python",
-      "clean code writing",
-      "analytical skills",
-      "problem-solving skills",
-      "communication skills",
-      "IoT"
+      "clean code writing"
     ],
     "preferred_skills": [
+      "IoT",
       "agentic AI",
-      "RAG approaches"
+      "RAG"
     ],
     "min_hours_per_week": null,
     "max_hours_per_week": null,
     "min_german": null,
     "min_english": "verhandlungssicher",
     "education": "Master's degree in Computer Science, Engineering, IT, or relevant discipline",
-    "expected_salary": "ab 40.910 EUR / Jahr auf Vollzeit-Basis"
+    "expected_salary": "40.910 EUR / Jahr auf Vollzeit-Basis"
   },
   {
     "id": "002",
@@ -42,8 +39,8 @@
     "title": "Werkstudent Data Platforms & Financial Services (m/w/x)",
     "company": "BearingPoint GmbH",
     "location": "Wien",
-    "remote": null,
-    "required_experience": "Berufseinstieg",
+    "work_model": null,
+    "required_experience": null,
     "employment_type": "Teilzeit",
     "required_skills": [],
     "preferred_skills": [],
@@ -52,7 +49,7 @@
     "min_german": null,
     "min_english": null,
     "education": null,
-    "expected_salary": "ab 2.550 EUR monatlich"
+    "expected_salary": "2.550 EUR monatlich"
   },
   {
     "id": "003",
@@ -62,16 +59,16 @@
     "title": "Student Job (f/m/x) - Data & AI Automation",
     "company": "Raiffeisen Bank International AG",
     "location": "Wien",
-    "remote": true,
-    "required_experience": "Berufseinstieg",
+    "work_model": "hybrid",
+    "required_experience": null,
     "employment_type": "Teilzeit",
     "required_skills": [
-      "Python",
+      "programming skills",
       "data handling",
-      "structured datasets",
-      "Analytical thinking"
+      "structured datasets"
     ],
     "preferred_skills": [
+      "Python",
       "SQL",
       "Power BI",
       "Databricks",
@@ -94,20 +91,18 @@
     "title": "AI & Data Engineer",
     "company": "solvistas GmbH",
     "location": "Linz, Vienna",
-    "remote": false,
-    "required_experience": "2-3 years",
+    "work_model": "hybrid",
+    "required_experience": "2-3 years of professional experience in Data Engineering or AI Development",
     "employment_type": "Part Time/Full Time",
     "required_skills": [
       "Data Engineering",
       "AI Development",
-      "ETL/ELT pipelines",
+      "ETL/ELT pipelines"
+    ],
+    "preferred_skills": [
       "Azure Data Factory",
       "SSIS",
       "dbt",
-      "data pipelines",
-      "data solutions"
-    ],
-    "preferred_skills": [
       "Data Visualization",
       "Power BI",
       "Streamlit",
@@ -130,17 +125,19 @@
     "title": "AI & ML Intern - Full Stack Developer (m/f/d)",
     "company": "Trench Austria GmbH",
     "location": "Leonding",
-    "remote": true,
-    "required_experience": "Berufserfahrung",
-    "employment_type": "Vollzeit",
+    "work_model": "hybrid",
+    "required_experience": null,
+    "employment_type": "Internship",
     "required_skills": [
-      "Machine learning algorithms",
+      "machine learning algorithms",
+      "machine learning methods"
+    ],
+    "preferred_skills": [
       "Python",
       "C#",
       "JavaScript",
       "Java"
     ],
-    "preferred_skills": [],
     "min_hours_per_week": 16,
     "max_hours_per_week": null,
     "min_german": null,
