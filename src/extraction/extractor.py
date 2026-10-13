@@ -23,7 +23,9 @@ required_experience:
 
 work_model:
 - Use "onsite", "hybrid" or "remote". "Homeoffice möglich", "mit Homeoffice" and "hybrid" all mean "hybrid". Return null if not mentioned.
-
+Do not convert percentages, months or other units into hours per week. Return min/max hours only if the text states hours per week.
+Return "onsite" only if the text explicitly says on-site or presence is required; an office location alone is not enough.
+Degree programmes and fields of study go to education, never to skills.
 Hours and languages:
 - min_hours_per_week and max_hours_per_week: only numbers stated in the text.
 - min_german and min_english: use a CEFR level (A1-C2) if given, otherwise copy the wording from the text.
