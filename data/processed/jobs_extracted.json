@@ -17,19 +17,19 @@
       "anomaly detection",
       "forecasting",
       "Python",
-      "clean code writing"
+      "clean code writing",
+      "IoT"
     ],
     "preferred_skills": [
-      "IoT",
       "agentic AI",
-      "RAG"
+      "Retrieval-augmented generation (RAG)"
     ],
     "min_hours_per_week": null,
     "max_hours_per_week": null,
     "min_german": null,
     "min_english": "verhandlungssicher",
     "education": "Master's degree in Computer Science, Engineering, IT, or relevant discipline",
-    "expected_salary": "40.910 EUR / Jahr auf Vollzeit-Basis"
+    "expected_salary": "ab 40.910 EUR / Jahr auf Vollzeit-Basis"
   },
   {
     "id": "002",
@@ -58,7 +58,7 @@
     "raw_text": "Student Job (f/m/x) - Data & AI Automation (20-25 h/week)\nRaiffeisen Bank International AG\nTeilzeit | ab 2.619,73 EUR monatlich | Berufseinstieg | Homeoffice möglich | Wien\n\nJoin the Non-Financial Risk Tribe at RBI Group. We are expanding the use of data, automation, and AI to improve internal processes and efficiency across the organization.\nTo support these initiatives, we are looking for a working student with a strong interest in data, automation, and modern technologies. In this role, you will contribute to building automation solutions, supporting data workflows, and experimenting with AI tools in a practical environment.\n\nAt a glance:\n- Starting date: as soon as possible\n- Working hours: 20-25 h/week\n- Location: 1030 Vienna\n\nYour role with us on the team:\n- Support the development of automation scripts and small internal tools (e.g. Python-based solutions)\n- Assist in data preparation, transformation, and analysis\n- Contribute to data pipelines and data flows using modern platforms (e.g. Databricks)\n- Help build and maintain Power BI dashboards and reports for risk purposes\n- Leverage AI/LLM tools to improve efficiency\n\nAnforderungen:\n- Ongoing studies in IT, Computer Science, Data Science or related technical field\n- English fluency\n- Strong interest in data, automation, and modern technologies\n- Basic programming skills (preferably Python)\n- Basic understanding of data handling and structured datasets (SQL is a plus)\n- Analytical thinking and structured working style\n- First experience with Power BI, Databricks, APIs, low-code tools or Git is a plus\n\nBenefits: buddy system for onboarding, internal student networking, subsidized canteen meals, shopping vouchers, free museum tickets, sports offers.",
     "title": "Student Job (f/m/x) - Data & AI Automation",
     "company": "Raiffeisen Bank International AG",
-    "location": "Wien",
+    "location": "1030 Vienna",
     "work_model": "hybrid",
     "required_experience": null,
     "employment_type": "Teilzeit",
@@ -97,7 +97,7 @@
     "required_skills": [
       "Data Engineering",
       "AI Development",
-      "ETL/ELT pipelines"
+      "automated ETL/ELT pipelines"
     ],
     "preferred_skills": [
       "Azure Data Factory",
@@ -107,8 +107,7 @@
       "Power BI",
       "Streamlit",
       "Dash",
-      "MinIO S3",
-      "object storage solutions"
+      "MinIO S3"
     ],
     "min_hours_per_week": null,
     "max_hours_per_week": null,
@@ -142,7 +141,7 @@
     "max_hours_per_week": null,
     "min_german": null,
     "min_english": null,
-    "education": "Enrolled in or recently completed studies in Computer Science, Software Engineering, Data Science, AI/ML, or a comparable field",
+    "education": "Computer Science, Software Engineering, Data Science, AI/ML, or a comparable field",
     "expected_salary": "ab 2.998 EUR monatlich"
   },
   {
@@ -160,8 +159,7 @@
     "preferred_skills": [
       "Produktionssysteme",
       "Bildverarbeitung",
-      "KI-gestützte Lösungen",
-      "Computer Vision"
+      "KI-gestützte Lösungen"
     ],
     "min_hours_per_week": null,
     "max_hours_per_week": null,
@@ -178,11 +176,12 @@
     "title": "Werkstudent im Bereich Artificial Intelligence (m/w/d)",
     "company": "Fronius Österreich",
     "location": "Hagenberg, Lower Austria, Austria",
-    "work_model": "onsite",
+    "work_model": null,
     "required_experience": null,
     "employment_type": "Internship",
     "required_skills": [
-      "Programmiersprache"
+      "AI",
+      "Machine Learning"
     ],
     "preferred_skills": [
       "Python",
@@ -194,7 +193,7 @@
     "min_german": "Sehr gute Deutschkenntnisse",
     "min_english": "Sehr gute Englischkenntnisse",
     "education": "Laufendes Studium an der FH Oberösterreich Campus Hagenberg im Bereich Informatik, Software Engineering, Data Science, Artificial Intelligence oder einer vergleichbaren Fachrichtung",
-    "expected_salary": "mind. €3.009,82 brutto"
+    "expected_salary": "mind. €3.009,82 brutto (Vollzeit)"
   },
   {
     "id": "008",
@@ -218,8 +217,8 @@
       "ETL-Prozessen",
       "Datenpipelines"
     ],
-    "min_hours_per_week": 20,
-    "max_hours_per_week": 40,
+    "min_hours_per_week": null,
+    "max_hours_per_week": null,
     "min_german": null,
     "min_english": null,
     "education": "Laufendes Bachelor- oder Masterstudium in Informatik, Data Science, Statistik, Wirtschaftswissenschaften oder verwandten Fachrichtungen",
@@ -241,17 +240,18 @@
       "data modeling",
       "relational database concepts",
       "Git",
-      "BI visualization tools"
+      "BI visualization tools",
+      "dbt models"
     ],
     "preferred_skills": [
       "Python",
-      "dbt models"
+      "prior internship experience"
     ],
     "min_hours_per_week": null,
     "max_hours_per_week": null,
     "min_german": null,
     "min_english": null,
-    "education": "Current student (near-graduation) or recent graduate with a background in Business Intelligence, Data Engineering, Computer Science, or a related field",
+    "education": "Business Intelligence, Data Engineering, Computer Science, or a related field",
     "expected_salary": null
   },
   {
@@ -274,7 +274,7 @@
     "max_hours_per_week": 30,
     "min_german": null,
     "min_english": "Gute Englischkenntnisse",
-    "education": "Ein vorgeschrittenes Studium im Bereich Wirtschaft, Wirtschaftsinformatik, Informatik, HR oder vergleichbarem Schwerpunkt",
+    "education": "vorgeschrittenes Studium im Bereich Wirtschaft, Wirtschaftsinformatik, Informatik, HR oder vergleichbarem Schwerpunkt",
     "expected_salary": null
   },
   {
@@ -293,17 +293,17 @@
       "Excel"
     ],
     "preferred_skills": [
+      "Data Science",
       "R",
       "Python",
-      "Data Science",
       "Unternehmensbilanzen"
     ],
-    "min_hours_per_week": 20,
-    "max_hours_per_week": 40,
+    "min_hours_per_week": null,
+    "max_hours_per_week": null,
     "min_german": null,
     "min_english": null,
     "education": "Laufendes Bachelor-/Masterstudium aus dem Bereich der Wirtschaftswissenschaften und/oder Studium mit IT-technischem Schwerpunkt",
-    "expected_salary": "€ 2.064"
+    "expected_salary": "€ 2.064 auf Vollzeitbasis"
   },
   {
     "id": "012",
@@ -320,11 +320,13 @@
       "Excel"
     ],
     "preferred_skills": [
+      "Finanz- und Versicherungsmathematik",
+      "IT",
       "R",
       "Datenbankkenntnisse"
     ],
-    "min_hours_per_week": 10,
-    "max_hours_per_week": 10,
+    "min_hours_per_week": null,
+    "max_hours_per_week": null,
     "min_german": null,
     "min_english": null,
     "education": "Laufendes Mathematikstudium",
@@ -342,14 +344,13 @@
     "required_experience": "Praktische Erfahrung in Business Intelligence, Reporting oder Data Analytics",
     "employment_type": "Full-time",
     "required_skills": [
-      "SAP BW/BI",
-      "SAP BusinessObjects",
-      "SAP Analysis for Office",
       "Business Intelligence",
       "Reporting",
       "Data Analytics"
     ],
     "preferred_skills": [
+      "SAP BW/BI-Reporting",
+      "SAP Analysis for Office",
       "SAP Analytics Cloud",
       "SAP BW Modeling Tools in Eclipse"
     ],
@@ -357,7 +358,7 @@
     "max_hours_per_week": null,
     "min_german": null,
     "min_english": "Sehr gute Englischkenntnisse",
-    "education": "Abgeschlossenes Studium (Master/Diplom) oder abgeschlossene IT-nahe Berufsausbildung",
+    "education": "Abgeschlossenes Studium (Master/Diplom), vorzugsweise im Bereich (Wirtschafts-)Informatik, Wirtschaftswissenschaften, Mathematik oder eine vergleichbare Qualifikation; alternativ eine abgeschlossene IT-nahe Berufsausbildung",
     "expected_salary": null
   },
   {
@@ -402,14 +403,14 @@
       "Excel"
     ],
     "preferred_skills": [
-      "Kenntnisse des österreichischen Pflegewesens"
+      "österreichisches Pflegewesen"
     ],
     "min_hours_per_week": null,
     "max_hours_per_week": null,
     "min_german": null,
     "min_english": null,
     "education": "Reife- bzw. Diplomprüfung einer höheren Schule oder Berufsreifeprüfung",
-    "expected_salary": "2.380 Euro - 2.620 Euro brutto"
+    "expected_salary": "2.380 Euro bis 2.620 Euro brutto"
   },
   {
     "id": "016",
@@ -418,7 +419,7 @@
     "raw_text": "Senior Data Analyst Logistik (m/w/d)\nXXXLdigital – Part of XXXL Group\nMid-Senior level | Full-time | Wels, Upper Austria, Austria\n\nWien, Linz, Wels (AT)\n\nVollzeit\n\nWillkommen bei XXXLdigital, wo digitale Innovation echte Wirkung zeigt. Als digitale Organisationseinheit der XXXL-Gruppe widmen wir uns allen Facetten des E-Commerce und stationärem Handel. Die Zusammenstellung von Produken für die Online-Shops, die Optimierung des Kund:innenerlebnisses und die Abwicklung des digitalen Marketings – all das zählt zu unserem Kerngeschäft. Die Bedürfnisse unserer Kund:innen stehen bei uns im Mittelpunkt, um ein nahtloses Omnichannel-Einkaufserlebnis zu bieten. Unsere Vision ist es, mit unseren Online-Shops und Filialen der marktführende Möbel- und Einrichtungshändler zu sein. Bei XXXLdigital schätzen wir Authentizität und Vielfalt. Wir fördern ein Umfeld, in dem du dich wirklich entfalten und dein Potential voll nutzen kannst. In dieser Rolle liegt dein fachlicher Schwerpunkt auf der Service Logistik. Dabei arbeitest du eng mit den zuständigen Fachbereichen und Ansprechpartner:innen zusammen.\n\nDas Bist Du\n\n- Du verfügst über mehrjährige praktische Erfahrung im Bereich Data Analytics, idealerweise in einem datenintensiven Unternehmens-, Handels- oder Logistikumfeld\n- Ein abgeschlossenes Studium oder eine vergleichbare Ausbildung in Data Analytics, Wirtschaftsinformatik, Statistik, Logistik oder einem verwandten Fachgebiet ist von Vorteil\n- Du denkst analytisch, stellst die richtigen Fragen und kannst aus Daten klare, nachvollziehbare Erkenntnisse sowie konkrete Handlungsempfehlungen ableiten\n- Du verfügst über sehr gute SQL-Kenntnisse und bist sicher im Umgang mit relationalen Datenbanken, Data-Warehouse-Systemen und weiteren Datenquellen\n- Erfahrung mit Python ist von Vorteil\n- Du hast Erfahrung in der Aufbereitung und Analyse von Daten sowie im Umgang mit BI- und Reporting-Tools, idealerweise Power BI oder vergleichbaren Lösungen\n- Du arbeitest sorgfältig und qualitätsbewusst, hinterfragst Daten und Ergebnisse kritisch und hast ein gutes Gespür für Unstimmigkeiten, Datenlücken und unterschiedliche KPI-Definitionen\n- Du kannst komplexe Sachverhalte verständlich und adressatengerecht aufbereiten – in Dashboards, Reports und im persönlichen Austausch - Dabei arbeitest du strukturiert und kooperativ mit Fachbereichen, technischen Ansprechpartner:innen und Kolleg:innen zusammen\n- Du verfügst über sehr gute Deutschkenntnisse, gute Englischkenntnisse und dokumentierst deine Analysen und Ergebnisse nachvollziehbar\n\nDas Sind Deine Aufgaben\n\n- Du führst Ad-hoc-Analysen zu logistischen Fragestellungen eigenständig durch und bereitest die Ergebnisse als belastbare Entscheidungsgrundlage für die Fachbereiche auf\n- Du entwickelst und pflegst Reports, Dashboards und regelmäßige Auswertungen zu Auslieferungen, Liefertreue, Retouren und Beständen\n- Du analysierst logistische Kennzahlen, erkennst Entwicklungen und Abweichungen und leitest daraus gemeinsam mit den Fachbereichen konkrete Verbesserungsmaßnahmen ab\n- Du automatisierst wiederkehrende Auswertungen und Excel-basierte Listen oder Reports, um manuelle Aufwände zu reduzieren und die Qualität sowie Aktualität der Informationen zu verbessern\n- Du unterstützt bei der Klärung von Datenqualitätsprobleme, Fragen zu bestehenden Reports und Anforderungen an Daten oder Auswertungen - Dabei analysierst du Ursachen, koordinierst die Abstimmung mit den zuständigen Ansprechpartner:innen eigenständig und dokumentierst Lösungen\n- Du begleitest Anfragen zu Datenzugriffen und Berechtigungen im Rahmen der geltenden Vorgaben und stellst sicher, dass Datenstand, Filter, KPI-Logik und bekannte Einschränkungen in deinen Auswertungen transparent sind\n\nDas Erwartet Dich\n\n- Gesundheit & Wohlfühlen: Gratis Kaffee, Tee, Getränke, frisches Obst und Gemüse sowie vergünstigte Mahlzeiten in der Kantine oder Essenszuschüsse (standortabhängig). Moderne Arbeitsplätze für alle Bedürfnisse\n- Kultur & Entwicklung: Wir schätzen Eigenverantwortung, flache Hierarchien und offenes Feedback. Wir leben einen Teamgeist, in dem Unterstützung und Zusammenarbeit großgeschrieben werden. Genieße 2 Learning-Days pro Quartal, einen internen Lerncampus und externe Entwicklungsmöglichkeiten\n- Flexible Work-Life Balance: Genieße flexible Arbeitszeiten und diverse Möglichkeiten für Homeoffice\n- Feiern & Meilensteine: Teamevents und besondere Aufmerksamkeiten für Geburtstage und Jubiläen\n- Standortspezifische Benefits: Maßgeschneiderte Benefits, die auf die Bedürfnisse der jeweiligen Standorte zugeschnitten sind\n\nÜber XXXLdigital\n\nWir scheuen nicht die Vielfalt – wir feiern sie. Sei du selbst und zeig uns wer du bist!\n\nDich erwartet ein Jahresbruttogehalt ab 63.000 € - mit der klaren Bereitschaft zur Überzahlung, wenn du durch Erfahrung und Know-how überzeugst. Alles weitere dazu besprechen wir gerne persönlich.\n\nLet’s excite together!",
     "title": "Senior Data Analyst Logistik (m/w/d)",
     "company": "XXXLdigital",
-    "location": "Wien, Linz, Wels (AT)",
+    "location": "Wels, Upper Austria, Austria",
     "work_model": "hybrid",
     "required_experience": "mehrjährige praktische Erfahrung im Bereich Data Analytics",
     "employment_type": "Full-time",
@@ -426,16 +427,10 @@
       "SQL",
       "relationalen Datenbanken",
       "Data-Warehouse-Systemen",
-      "Datenaufbereitung",
-      "Datenanalyse",
-      "BI-Tools",
-      "Reporting-Tools"
+      "Aufbereitung und Analyse von Daten",
+      "BI- und Reporting-Tools"
     ],
     "preferred_skills": [
-      "Data Analytics Studium",
-      "Wirtschaftsinformatik Studium",
-      "Statistik Studium",
-      "Logistik Studium",
       "Python",
       "Power BI"
     ],
@@ -443,7 +438,7 @@
     "max_hours_per_week": null,
     "min_german": "sehr gute Deutschkenntnisse",
     "min_english": "gute Englischkenntnisse",
-    "education": null,
+    "education": "Studium oder eine vergleichbare Ausbildung in Data Analytics, Wirtschaftsinformatik, Statistik, Logistik oder einem verwandten Fachgebiet",
     "expected_salary": "ab 63.000 €"
   },
   {
@@ -480,7 +475,7 @@
     "min_hours_per_week": null,
     "max_hours_per_week": null,
     "min_german": "Sehr gute Deutschkenntnisse",
-    "min_english": "gute Englischkenntnisse",
+    "min_english": "Gute Englischkenntnisse",
     "education": "Abgeschlossene technische oder wirtschaftliche Ausbildung mit Schwerpunkt Wirtschaftsinformatik, Data Engineering, Datenmodellierung, Business Intelligence oder vergleichbarer Qualifikation",
     "expected_salary": "EUR 70.000 brutto"
   },
@@ -530,8 +525,8 @@
     "max_hours_per_week": 20,
     "min_german": null,
     "min_english": null,
-    "education": "Studium im wirtschaftlichen Bereich",
-    "expected_salary": "€ 2.456,89 brutto bei Vollzeit"
+    "education": "wirtschaftlicher Bereich",
+    "expected_salary": null
   },
   {
     "id": "020",
@@ -545,13 +540,10 @@
     "required_experience": null,
     "employment_type": "Internship",
     "required_skills": [
-      "Human Resources Management",
-      "Business Administration",
-      "kaufmännische Bereiche",
       "digitale Affinität"
     ],
     "preferred_skills": [
-      "Praktikumserfahrungen im Büro"
+      "Erste Praktikumserfahrungen im Büro"
     ],
     "min_hours_per_week": 20,
     "max_hours_per_week": 25,
