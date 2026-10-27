@@ -2,3 +2,4 @@
 cv_data.txt
 __pycache__/
 *.pyc
+data/chroma/

@@ -3,3 +3,5 @@ pydantic
 streamlit
 pytest
 python-dotenv
+sentence-transformers
+chromadb
