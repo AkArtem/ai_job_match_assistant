@@ -9,7 +9,7 @@ def job_to_text(job):
         result.append(", ".join(job.get("required_skills") or []))
     if job.get("education"):
         result.append(job.get("education"))
-    if job.get("experience"):
+    if job.get("required_experience"):
         result.append(job.get("required_experience"))
     if job.get("location"):
         result.append(job.get("location"))
