@@ -31,6 +31,20 @@ def add_jobs(jobs, collection=collection):
         embeddings=vectors
     )
 
+def search(query_text, n=5, collection=collection):
+    vector = embed([query_text])[0].tolist()
+    result = collection.query(query_embeddings=[vector], n_results=n)
+    res = []
+    for i in range(len(result["ids"][0])):
+        res.append({
+            "id": result["ids"][0][i],
+            "similarity": 1 - result["distances"][0][i],
+            "title": result["metadatas"][0][i]["title"],
+            "company": result["metadatas"][0][i]["company"]
+        })
+    return res
+
+
 if __name__ == "__main__":
     with open("data/processed/jobs_extracted.json", "r", encoding="utf-8") as f:
         jobs = json.load(f)
