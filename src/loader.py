@@ -16,6 +16,7 @@ def load_jobs(path="data/processed/jobs_extracted.json"):
             count += 1
             ids.append(item.get("id", "unknown"))
     print(f"Loaded {len(results)} jobs with {count} errors.")
+    print(f"Invalid job IDs: {ids}")
     return results, ids
 if __name__ == "__main__":
     loaded_jobs, ids = load_jobs()
