@@ -3,9 +3,12 @@ def german_to_rank(text):
         return None
     text = text.lower()
 
+    if ("oder englisch" in text or "oder deutsch" in text
+            or "or english" in text or "or german" in text):
+        return None
     if "fließend" in text or "verhandlungssicher" in text:
         return 6
-    elif "sehr gut" in text:
+    elif "sehr gut" in text or "very good" in text:
         return 5
     elif "gut" in text:
         return 4
@@ -33,7 +36,8 @@ def hard_filter(jobs, profile):
         if job_german_rank is not None and job_german_rank > rank_profile:
             removed.append((job.get("id"), "german_level"))
             continue
-        if (job.get("employment_type") or "").lower() == "full-time":
+        employment_type = (job.get("employment_type") or "").lower().replace("_", "-")
+        if employment_type in {"full-time", "vollzeit"}:
             removed.append((job.get("id"), "employment_type"))
             continue
         if job.get("min_hours_per_week") is not None and job.get("min_hours_per_week") > profile.max_hours_per_week:

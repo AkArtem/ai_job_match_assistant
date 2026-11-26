@@ -35,6 +35,11 @@ def test_rank_words():
     assert german_to_rank("gut") == 4
 
 
+def test_rank_very_good():
+    assert german_to_rank("very good") == 5
+    assert german_to_rank("VERY GOOD") == 5
+
+
 def test_rank_sehr_gut_is_higher_than_gut():
     assert german_to_rank("sehr gut") > german_to_rank("gut")
 
@@ -82,9 +87,27 @@ def test_removes_full_time_any_case():
     assert kept == []
 
 
+def test_removes_full_time_underscore_and_german_vollzeit():
+    jobs = [
+        make_job(id="001", employment_type="FULL_TIME"),
+        make_job(id="002", employment_type="Vollzeit"),
+    ]
+    kept, removed = hard_filter(jobs, profile)
+    assert kept == []
+    assert removed == [("001", "employment_type"), ("002", "employment_type")]
+
+
 def test_keeps_part_time_or_full_time():
     kept, removed = hard_filter([make_job(employment_type="Part Time/Full Time")], profile)
     assert len(kept) == 1
+
+
+def test_keeps_mixed_vollzeit_and_teilzeit():
+    kept, removed = hard_filter(
+        [make_job(employment_type="Vollzeit, Teilzeit")], profile
+    )
+    assert len(kept) == 1
+    assert removed == []
 
 
 def test_keeps_job_if_employment_type_missing():
@@ -128,3 +151,12 @@ def test_first_matching_reason_is_recorded():
     job = make_job(min_german="C1", employment_type="Full-time")
     kept, removed = hard_filter([job], profile)
     assert removed == [("001", "german_level")]
+    
+def test_german_or_english_alternatives_are_not_required():
+    assert german_to_rank("Deutsch oder Englisch") is None
+    assert german_to_rank("English or German") is None
+    kept, removed = hard_filter(
+        [make_job(min_german="C1 oder Englisch")], profile
+    )
+    assert len(kept) == 1
+    assert removed == []
